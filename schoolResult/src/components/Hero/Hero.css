@@ -1,0 +1,67 @@
+.hero-background-div {
+  background: #fae8ff;
+  height: auto;
+}
+.hero-display-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.c-color {
+  color: rgb(219, 17, 17);
+}
+.hero-upload {
+  font-weight: 600;
+  width: 80%;
+  font-size: 40px;
+  font-family: "Poppins";
+  margin-top: 1px;
+  margin-bottom: 10px;
+}
+.hero-upload span {
+  color: rgb(228, 73, 73);
+}
+.hero-platform {
+  width: 90%;
+  margin-bottom: 10px;
+}
+.contact-btn {
+  background: rgb(86 81 225);
+  color: white;
+  border: 1px solid transparent;
+  align-items: center;
+  font-weight: 500;
+  border: 1px solid transparent;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  align-items: center;
+  border-radius: 4px;
+}
+.contact-btn:hover {
+  background: #040536;
+}
+@media screen and (max-width: 1028px) {
+  .hero-background-div {
+    margin-top: -50px;
+  }
+  .c-color {
+    margin-top: 60px;
+  }
+  .hero-display-div {
+    flex-wrap: wrap;
+  }
+  .hero-display-div div {
+    margin-bottom: 20px;
+  }
+  .hero-upload {
+    width: 100%;
+    font-size: xx-large;
+  }
+  .hero-platform {
+    width: 95%;
+  }
+}

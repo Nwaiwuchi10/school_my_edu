@@ -1,0 +1,168 @@
+.result-main-div-section {
+  margin-top: 60px;
+  border: 1px solid #3c91e6;
+  background-color: white;
+  width: auto;
+  height: auto;
+  /* height: max-content; */
+}
+/* .result-content-print {
+    height: fit-content;
+  } */
+.display-content-head-result {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+
+  /* align-items: center; */
+}
+.logo-result-div {
+  width: 50px;
+  height: 50px;
+  /* width: 70px;
+    height: 10vh; */
+  margin-left: 40px;
+}
+.logo-result {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.img-passport-result-div {
+  width: 70px;
+  height: 70px;
+  margin-right: 40px;
+}
+.img-passport-result {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.our-title-h3 {
+  font-size: x-large;
+  text-align: center;
+  width: 50%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+
+  justify-content: center;
+  font-weight: 600;
+
+  color: rgba(0, 0, 255, 0.822);
+}
+.adress-text {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.sheet-div {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 255, 0.822);
+  color: white;
+  border-color: rgba(0, 0, 255, 0.822);
+  border: 1px solid;
+  margin-top: 5px;
+  padding: 6px;
+  font-size: large;
+}
+.tb-display-tables {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.table-div {
+  margin-left: 20px;
+  margin-top: 30px;
+  width: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+.table-div-2 {
+  margin-top: 20px;
+  width: auto;
+  margin-right: 20px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  padding-bottom: 20px;
+}
+.user-result-detail-display {
+  display: grid;
+  justify-items: center;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  grid-template-columns: repeat(2, 2fr);
+  font-size: medium;
+  font-weight: 600;
+}
+.user-result-detail-display hr {
+  width: 250px;
+  /* border: 1px solid black; */
+}
+.stamp-div {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-right: 150px;
+  margin-top: -50px;
+}
+.stamp-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.stamp-img-div hr {
+  border: 1px solid black;
+  margin-top: 1px;
+}
+
+.stamp-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+@media (max-width: 1200px) {
+  .tb-display-tables {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
+  .display-content-head-result {
+    display: flex;
+    justify-content: center;
+  }
+  .user-result-detail-display {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .user-d-class {
+    margin-top: 30px;
+  }
+  .logo-result {
+    object-fit: contain;
+  }
+  .logo-result-div {
+    width: 120px;
+    margin-left: 30px;
+  }
+  .img-passport-result-div {
+    width: 120px;
+    margin-right: 30px;
+  }
+  .sheet-div {
+    width: 100%;
+    justify-items: center;
+    text-align: center;
+  }
+  .our-title-h3 {
+    width: 100%;
+  }
+}

@@ -1,0 +1,27 @@
+.commulative-sidebar {
+  display: flex;
+  justify-content: space-evenly;
+}
+.commulative-sidebar div {
+  color: cornflowerblue;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+.commulative-main-content {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.commulative-sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.commulative-sidebar ul li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.commulative-sidebar ul li:hover {
+  background-color: #ddd;
+}

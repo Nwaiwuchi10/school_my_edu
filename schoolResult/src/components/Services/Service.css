@@ -1,0 +1,60 @@
+.service-bg-div {
+}
+.service-bg-div {
+  /* background: rgba(196, 121, 214, 0.199); */
+  background: linear-gradient(
+    rgba(196, 121, 214, 0.199),
+    #fae8ff,
+    #f5f3f3fa,
+    rgba(220, 175, 231, 0.199)
+  );
+  /* #aaaaaa */
+  height: auto;
+  padding-bottom: 50px;
+}
+.service-page-display {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.div-phase2 {
+  width: 40%;
+}
+.service-p-tag {
+}
+.service-upload {
+  font-weight: 600;
+
+  font-size: 35px;
+  font-family: "Poppins";
+  margin-top: 1px;
+  margin-bottom: 10px;
+}
+.span-content {
+  font-weight: 500;
+  font-size: large;
+}
+@media screen and (max-width: 1028px) {
+  /* .hero-background-div {
+      margin-top: -50px;
+    } */
+  .c-color {
+    margin-top: 60px;
+  }
+  .service-page-display {
+    flex-wrap: wrap;
+  }
+  .div-phase2 {
+    width: 100%;
+  }
+  .hero-display-div div {
+    margin-bottom: 20px;
+  }
+  .service-upload {
+    width: 100%;
+    font-size: xx-large;
+  }
+  .hero-platform {
+    width: 95%;
+  }
+}

@@ -1,0 +1,136 @@
+.card-app {
+  align-items: center;
+  height: auto;
+  background-color: #f0f0f0;
+  padding-top: 80px;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.btn-block3 {
+  background: transparent;
+}
+.card-h1 {
+  font-size: xx-large;
+  text-align: center;
+
+  font-weight: 600;
+  color: #e53238;
+}
+.hr-2 {
+  display: none;
+}
+.skiller-col {
+  display: flex;
+  padding-bottom: 70px;
+  margin-top: 40px;
+  justify-content: space-evenly;
+  /* gap: 20px; */
+  align-items: center;
+}
+.first-portl-div-icon {
+}
+.portal-phase {
+  background: linear-gradient(rgb(35, 0, 130), #040536);
+  height: 100px;
+}
+.portal-write {
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: medium;
+}
+
+.portal-btn {
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 1px solid orange;
+  /* background: linear-gradient(rgb(130, 0, 39), #d63d0e); */
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  color: white;
+  cursor: pointer;
+}
+.btn-portal {
+  border-radius: 6px;
+  width: 120px;
+  height: 40px;
+  border: 3px solid;
+  margin-top: 10px;
+  border-color: green;
+}
+.btn-portal:hover {
+  background-color: green;
+  border-color: greenyellow;
+}
+.portal-border-div {
+  width: 250px;
+  height: 200px;
+  border: 1px solid goldenrod;
+  overflow: hidden;
+  /* position: relative; */
+  background-color: white;
+  box-shadow: 0 0 20px rgb(8, 8, 8);
+}
+/* .portal-border-div::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background-color: white;
+    box-shadow: 0 0 20px rgb(8, 8, 8);
+    animation: animate 4s linear infinite;
+  }
+  .portal-border-div::after {
+    content: "";
+    position: absolute;
+    inset: 10px;
+    
+    border-radius: 16px;
+  } */
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.portal-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+  color: forestgreen;
+  margin-top: 50px;
+}
+@media (max-width: 1200px) {
+  .skiller-col {
+    flex-wrap: wrap;
+    gap: 30px;
+    /* justify-content: space-around; */
+  }
+}
+@media (max-width: 768px) {
+  .skiller-col {
+    flex-wrap: wrap;
+    gap: 70px;
+    /* justify-content: space-around; */
+  }
+  .portal-border-div {
+    width: 330px;
+  }
+}
+@media (max-width: 480px) {
+  .card-h1 {
+    font-size: x-large;
+    text-align: center;
+
+    font-weight: 600;
+    color: #e53238;
+  }
+}
